@@ -1,0 +1,85 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! How may I help you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later"],
+        "responses": ["Goodbye! Have a great day!", "See you later!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "I appreciate it"],
+        "responses": ["You're welcome!", "Glad I could help!"]
+      },
+      {
+        "tag": "check_balance",
+        "patterns": ["What is my account balance?", "Check my balance", "How much money do I have?"],
+        "responses": ["You can check your balance via our mobile app or by calling customer service."]
+      },
+      {
+        "tag": "open_account",
+        "patterns": ["How do I open an account?", "New account opening", "Start a new bank account"],
+        "responses": ["You can open an account online or visit your nearest branch with ID proof."]
+      },
+      {
+        "tag": "close_account",
+        "patterns": ["How do I close my account?", "I want to close my account"],
+        "responses": ["To close your account, please visit your nearest branch or contact support."]
+      },
+      {
+        "tag": "money_transfer",
+        "patterns": ["How do I transfer money?", "Send money", "Transfer funds"],
+        "responses": ["You can transfer money using our mobile app, net banking, or at an ATM."]
+      },
+      {
+        "tag": "transaction_issue",
+        "patterns": ["My transaction failed", "Why was my payment declined?", "Transaction not going through"],
+        "responses": ["Please check your internet connection or contact support if the issue persists."]
+      },
+      {
+        "tag": "statement_request",
+        "patterns": ["I need my bank statement", "How do I get my account statement?", "Bank statement request"],
+        "responses": ["You can download your statement from the mobile app or request one at the branch."]
+      },
+      {
+        "tag": "loan_inquiry",
+        "patterns": ["How do I apply for a loan?", "Tell me about personal loans", "I need a loan"],
+        "responses": ["You can apply for a loan on our website or visit a branch for assistance."]
+      },
+      {
+        "tag": "credit_card_info",
+        "patterns": ["What credit cards do you offer?", "Credit card options", "Tell me about credit cards"],
+        "responses": ["We offer different types of credit cards. Visit our website for more details."]
+      },
+      {
+        "tag": "increase_credit_limit",
+        "patterns": ["How do I increase my credit limit?", "Credit limit increase", "I need more credit"],
+        "responses": ["You can request a credit limit increase via the mobile app or customer support."]
+      },
+      {
+        "tag": "lost_card",
+        "patterns": ["I lost my credit card", "How do I report a lost debit card?", "My card is missing"],
+        "responses": ["Please call our helpline immediately to block your card and request a replacement."]
+      },
+      {
+        "tag": "fraud_report",
+        "patterns": ["I see an unauthorized transaction", "I think my account was hacked", "Report fraud"],
+        "responses": ["If you suspect fraud, contact our fraud department immediately at our helpline."]
+      },
+      {
+        "tag": "password_reset",
+        "patterns": ["I forgot my password", "Reset my online banking password", "How do I change my password?"],
+        "responses": ["You can reset your password using the 'Forgot Password' option on our website."]
+      },
+      {
+        "tag": "contact_support",
+        "patterns": ["How do I talk to a representative?", "Customer service contact", "Speak to support"],
+        "responses": ["You can call our 24/7 customer support at 1800-XXX-XXXX or visit a branch."]
+      }
+    ]
+  }
+  

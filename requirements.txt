@@ -1,0 +1,4 @@
+tensorflow
+spacy
+numpy
+pickle-mixin
